@@ -8,11 +8,11 @@ body {
 
 h1, h2, h3, h4, p, p1 {
   color: navy;
-  font-family: cursive;
+  font-family: 'Source Serif Pro', serif;;
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .img-fluid {
