@@ -50,7 +50,7 @@
   <div class="containers">
     <div class="row mt-5 ml-5 mr-5">
       <div class="col-md-4 text-center">
-          <img src="coffee2.jpg" class="img-fluid" alt="Coffee">
+          <img data-src="coffee2.jpg" class="img-fluid lazy" alt="Coffee">
           <div class="m-5">
             <h3>Kyle B. -</h3>
             <p>Franks has the best tasting coffee in the metropolitan area. Don't believe me then try it yourself."</p>
@@ -58,7 +58,7 @@
           </div>
       </div>
       <div class="col-md-4 text-center">
-          <img src="brewing2.jpg" class="img-fluid" alt="Brewing">
+          <img data-src="brewing2.jpg" class="img-fluid lazy" alt="Brewing">
           <div class="m-5">
             <h3>Sara H. -</h3>
             <p>"Franks is my go to sport before work. I always know that when I am running late they will get my coffee out faster than anywhere else."</p>
@@ -66,7 +66,7 @@
           </div>
       </div>
       <div class="col-md-4 text-center">
-          <img src="Delivery.jpg" class="img-fluid" alt="Delivery">
+          <img data-src="Delivery.jpg" class="img-fluid lazy" alt="Delivery">
           <div class="m-5">
             <h3>John K. -</h3>
             <p>"Franks is the only coffee shop I know that offers delivery and to top it off its FREE! Can't beat it."</p>
@@ -75,5 +75,12 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+  <script type="text/javascript">
+        var lazyLoadInstance = new LazyLoad({
+          elements_selector: ".lazy"
+        // ... more custom settings?
+      });
+  </script>
 </body>
 </html>

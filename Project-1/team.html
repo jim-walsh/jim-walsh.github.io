@@ -48,7 +48,7 @@
   <div class="containers">
     <div class="row m-3">
       <div class="col-md-4 text-center">
-        <img src="barista.jpg" class="img-fluid" alt="Coffee">
+        <img data-src="barista.jpg" class="img-fluid lazy" alt="Coffee">
           <div class="m-3">
             <h3>Amanda Adams</h3>
             <h4>Barista</h4>
@@ -56,7 +56,7 @@
           </div>
       </div>
       <div class="col-md-4 text-center">
-        <img src="music.jpg" class="img-fluid" alt="Brewing">
+        <img data-src="music.jpg" class="img-fluid lazy" alt="Brewing">
           <div class="m-3">
             <h3>John Smith</h3>
             <h4>Musician</h4>
@@ -64,7 +64,7 @@
           </div>
       </div>
       <div class="col-md-4 text-center">
-        <img src="purchase.jpg" class="img-fluid" alt="Delivery">
+        <img data-src="purchase.jpg" class="img-fluid lazy" alt="Delivery">
           <div class="m-3">
             <h3>Ashley Cage</h3>
             <h4>Purchasing Officer</h4>
@@ -73,5 +73,12 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+  <script type="text/javascript">
+        var lazyLoadInstance = new LazyLoad({
+          elements_selector: ".lazy"
+        // ... more custom settings?
+      });
+  </script>
 </body>
 </html>

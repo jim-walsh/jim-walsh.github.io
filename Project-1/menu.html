@@ -52,21 +52,21 @@
             <h3>Iced Coffee</h3>
             <p>Small $3.99, Large $6.99</p>
           </div>
-          <img src="iced2.jpg" class="rounded" alt="Coffee">
+          <img data-src="iced2.jpg" class="rounded lazy" alt="Coffee">
       </div>
       <div class="col-md-4 text-center">
           <div class="m-3">
             <h3>Hot Coffee</h3>
             <p>Small $2.99, Large $5.99</p>
           </div>
-          <img src="hot.jpg" class="rounded" alt="Brewing">
+          <img data-src="hot.jpg" class="rounded lazy" alt="Brewing">
       </div>
       <div class="col-md-4 text-center">
           <div class="m-3">
             <h3>Espresso Shot</h3>
             <p>$2.99x</p>
           </div>
-          <img src="espresso.jpg" class="rounded" alt="Delivery">
+          <img data-src="espresso.jpg" class="rounded lazy" alt="Delivery">
       </div>
     </div>
   </div>
@@ -78,14 +78,14 @@
             <h3>Cappucino</h3>
             <p>Small $4.99, Large $7.99</p>
           </div>
-          <img src="cap.jpg" class="rounded" alt="Coffee">
+          <img data-src="cap.jpg" class="rounded lazy" alt="Coffee">
       </div>
       <div class="col-md-4 text-center">
           <div class="m-3">
             <h3>Latte</h3>
             <p>Small $4.99, Large $7.99</p>
           </div>
-          <img src="latte.jpg" class="rounded" alt="Brewing">
+          <img data-src="latte.jpg" class="rounded lazy" alt="Brewing">
       </div>
       <div class="col-md-4 text-center">
           <div class="m-3">
@@ -96,6 +96,12 @@
       </div>
     </div>
   </div>
-
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+  <script type="text/javascript">
+        var lazyLoadInstance = new LazyLoad({
+          elements_selector: ".lazy"
+        // ... more custom settings?
+      });
+  </script>
 </body>
 </html>

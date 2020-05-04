@@ -46,14 +46,14 @@
   <div class="container-fluid">
     <div class="row mt-5 ml-3 mr-3">
       <div class="col-md-6 text-center">
-        <img src="Inside.jpg" class="img-fluid" alt="Coffee">
+        <img data-src="Inside.jpg" class="img-fluid lazy" alt="Coffee">
           <div class="m-3">
             <h3>Homely Atmoshpere</h3>
             <p>As a missional Cafe focused on lasting options to poverty, we turn profits into hope. We do this by creating a product you love, serving you with a smile, as well as offering all of our profits to individuals in need.</p>
           </div>
       </div>
       <div class="col-md-6 text-center">
-        <img src="service.jpg" class="img-fluid" alt="Brewing">
+        <img data-src="service.jpg" class="img-fluid lazy" alt="Brewing">
           <div class="m-3">
             <h3>Excellent Service</h3>
             <p>Our preferred, straightforward and also unique method of developing cool coffee at our cafe. The flash-chill procedure enables us to harness each coffee's natural attributes with a hot-water brew, and afterwards lock them in place with an instant decrease in temperature level.</p>
@@ -93,5 +93,12 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+  <script type="text/javascript">
+        var lazyLoadInstance = new LazyLoad({
+          elements_selector: ".lazy"
+        // ... more custom settings?
+      });
+  </script>
 </body>
 </html>
