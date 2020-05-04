@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+}
+
+h1, h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Pacifico',;
+  font-size: 30px;
+}
+
+
+p {
+font-family: 'Caveat',;
+  font-size: 15px;
+  padding: 15px 20px;
+}
+div {
+    display: inline-block;
+}
+.one-third {
+  width: 33%;
+}
+.two-thirds {
+    width: 100%;
+}
