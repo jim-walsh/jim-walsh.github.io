@@ -1,13 +1,19 @@
 .jumbotron {
-  background-image: url("https://media.istockphoto.com/photos/soft-light-green-color-texture-pattern-abstract-background-can-be-use-picture-id849665834?k=6&m=849665834&s=170667a&w=0&h=GyJvR5iRX_JXOusUJ0p9qzfKjKIPmQxX_OuyuBMRKS0=");
+  background-image: url("https://s28771.pcdn.co/wp-content/uploads/2014/12/light-grey-background-05.jpg");
   background-size: cover;
 }
 body {
-  background-color: ;
+  background-color: 
 }
 
-h1, h2, h3, h4, p, p1 {
-  color: navy;
+h1, p {
+  color: black;
+  font-family: 'Source Serif Pro', serif;;
+}
+
+
+h2, h3, h4, h5, p1 {
+  color: black;
   font-family: 'Source Serif Pro', serif;;
 }
 
