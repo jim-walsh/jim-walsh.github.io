@@ -2,17 +2,12 @@
   background-image: url("https://s28771.pcdn.co/wp-content/uploads/2014/12/light-grey-background-05.jpg");
   background-size: cover;
 }
+
 body {
   background-color: #c1d6c2;
 }
 
-h1, p {
-  color: black;
-  font-family: 'Source Serif Pro', serif;;
-}
-
-
-h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p {
   color: black;
   font-family: 'Source Serif Pro', serif;;
 }
@@ -47,6 +42,11 @@ h3 {
 }
 
 .jumbotron.Features {
+  background-image: url("https://s28771.pcdn.co/wp-content/uploads/2014/12/light-grey-background-05.jpg");
+  background-size: cover;
+}
+
+.jumbotron.Contact {
   background-image: url("https://s28771.pcdn.co/wp-content/uploads/2014/12/light-grey-background-05.jpg");
   background-size: cover;
 }
