@@ -1,3 +1,4 @@
-$(function() {
-        $('.lazy').lazy();
-    });
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+    // ... more custom settings?
+});
