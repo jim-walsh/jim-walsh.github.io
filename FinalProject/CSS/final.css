@@ -7,9 +7,9 @@ body {
   background-color: #c1d6c2;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5 {
   color: black;
-  font-family: 'Source Serif Pro', serif;;
+  font-family: 'Fjalla One', sans-serif;;
 }
 
 .navbar {
@@ -18,6 +18,8 @@ h1, h2, h3, h4, h5, p {
 
 p {
   font-size: 20px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
